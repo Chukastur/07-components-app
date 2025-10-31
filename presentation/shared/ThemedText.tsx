@@ -12,7 +12,7 @@ const ThemedText = ({ type, className, ...rest }: Props) => {
   return (
     <Text
       className={[
-        "text-black dark:text-white", // Colores base para modo claro/oscuro
+        "text-blue-300 dark:text-white", // Colores base para modo claro/oscuro
         type === "normal" ? "font-normal" : undefined,
         type === "h1" ? "text-3xl" : undefined,
         type === "h2" ? "text-xl" : undefined,
